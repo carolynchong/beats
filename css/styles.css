@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	font-family: 'Princess Sofia', cursive;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+body a {
+	color: white;
+    text-decoration: underline;
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Inconsolata', monospace;
+	color: #f70737
+}
+
+.content {
+	background-image: url("../img/beatson_crop.jpeg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    min-height: 100%;
+    padding-bottom: 30px;
+}
+
+.about {
+	padding-top: 45vh;
+	padding-left: 25px;
+	padding-right: 25px;
+    padding-bottom: 10px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.about h1 {
+	font-size: 5em;
+} 
+
+.about p {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+ /*laptop*/
+@media (min-width: 992px) {
+	.content {
+		background-image: url("../img/beatson_crop.jpeg");
+	    background-size: contain;
+	    background-color: white;
+	}
+	.about {
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	    background-color: white;
+	    width: 55%;
+	    padding-left: 50px;
+	    color: #50556C;
+	    height: 100vh;
+	    position: absolute;
+	    right: 0;
+	    overflow-y: scroll;
+	}
+	
+	body a {
+		color: #50556C;
+	    text-decoration: underline;
+	}
+}
