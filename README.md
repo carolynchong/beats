@@ -1,2 +1,1 @@
-# carolynchong.github.io
-A personal website. Zat is all. :)
+A personal website for Mark Beatson. Happy Birthday dude.
